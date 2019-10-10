@@ -1,0 +1,20 @@
+{
+  "name": "Tresio DatoCMS Plugin",
+  "version": "1.0",
+  "description": "Tresio DatoCMS Plugin",
+  "content_scripts": [
+    {
+      "matches": ["https://*.datocms.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "*://*.datocms.com/",
+    "webRequest"
+  ],
+  "manifest_version": 2
+}
