@@ -2,6 +2,11 @@
   "name": "Tresio DatoCMS Plugin",
   "version": "1.0",
   "description": "Tresio DatoCMS Plugin",
+  "icons": {
+    "16": "logo-16.png",
+    "48": "logo-48.png",
+    "128": "logo-128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://*.datocms.com/*"],

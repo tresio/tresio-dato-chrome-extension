@@ -41,8 +41,6 @@
       status: 'complete'
     });
 
-
-
   }, networkFilters);
 
   chrome.webRequest.onErrorOccurred.addListener((details)=> {

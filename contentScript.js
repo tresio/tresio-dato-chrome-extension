@@ -50,12 +50,11 @@
                 child.appendChild(node);
               }
             }
-
           }
         }
-
       }
       sendResponse(children);
     }
   });
+
 })();
