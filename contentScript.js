@@ -3,12 +3,12 @@
   var style = document.createElement('style');
   style.innerHTML =
     '#field--sitemap {' +
-    'max-height: 600px;' +
-    'overflow: hidden;' +
+      'max-height: 600px;' +
+      'overflow: hidden;' +
     '}' +
     '#field--htaccess {' +
-    'max-height: 600px;' +
-    'overflow: hidden;' +
+      'max-height: 600px;' +
+      'overflow: hidden;' +
     '}' +
     '[class*=tresio-counter] {' +
       'background-color: #ffffff;' +
