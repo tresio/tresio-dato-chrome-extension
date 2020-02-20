@@ -39,7 +39,6 @@
       let children = [];
       if(parent.length){
         children = parent[0].getElementsByClassName("RichContentItem");
-        console.log(children);
         if(children !== undefined){
           for(let i = 1; i < children.length + 1; i++){
 
