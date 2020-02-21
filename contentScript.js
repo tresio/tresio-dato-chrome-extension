@@ -4,11 +4,11 @@
   style.innerHTML =
     '#field--sitemap {' +
       'max-height: 600px;' +
-      'overflow: hidden;' +
+      'overflow: scroll;' +
     '}' +
     '#field--htaccess {' +
       'max-height: 600px;' +
-      'overflow: hidden;' +
+      'overflow: scroll;' +
     '}' +
     '[class*=tresio-counter] {' +
       'background-color: #ffffff;' +
