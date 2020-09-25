@@ -4,7 +4,8 @@
   const networkFilters = {
     urls: [
       "*://*.datocms.com/items*",
-      "*://*.datocms.com/validate*"
+      "*://*.datocms.com/validate*",
+      "*://*.datocms.com/editing-sessions*",
     ]
   };
 
